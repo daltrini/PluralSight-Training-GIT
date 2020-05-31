@@ -10,5 +10,3 @@ import glob
 
 file_sizes = {os.path.realpath(p): os.stat(p).st_size for p in glob.glob('*.py')}
 pp(file_sizes)
-
-# Testing diff on git - PluralSight Training
